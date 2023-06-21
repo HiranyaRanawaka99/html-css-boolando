@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding-top: 64px;
+    /*padding-top: 64px;*/
 }
 
 .container {
@@ -15,7 +15,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 img {
     width:100%;
@@ -31,7 +30,7 @@ header {
 
     position: fixed;
     width:100%;
-    z-index: -1;
+    z-index: 10;
 }
 
 .bg-orange {
@@ -59,11 +58,111 @@ nav ul {
     width: 125px;
 }
 
+
+/*CARDS*/
+
+.card {
+    margin-right:2rem;
+}
+
+.card.top {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5srem;
+}
+
+
+.relative {
+    position: relative;
+    width: 30%;
+}
+.inner {
+    position: absolute;
+    height: 100%;
+    top:0;
+    left:0;
+    display: none;
+}
+
+.outer:hover .inner {
+    display: block;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.heart {
+    top:10px;
+    right: 0;
+
+    width: 45px;
+    height: 45px;
+
+    font-size: 2rem;
+    text-align: center;
+    background-color:white;
+
+    z-index: 1;
+}
+
+.discount {
+    bottom: 95px;
+    left: 0;
+
+    width: 40px;
+    height: 20px;
+
+    padding-top: 4px;
+
+    font-size: 0.7rem;
+    text-align: center;
+    background-color:red;
+    color: white;
+}
+
+.eco {
+    bottom: 95px;
+    left: 43px;
+
+    width: 90px;
+    height: 20px;
+
+    padding-top: 4px;
+
+    font-size: 0.7rem;
+    text-align: center;
+    background-color:green;
+    color: white;
+}
+
+.eco.six {
+    left: 0;
+}
+
+.brand, .old-price {
+    font-weight: 100;
+}
+
+.curr-price {
+    color: red;
+}
+
+.old-price {
+    text-decoration:line-through;
+}
+
+
+
 /*FLEXBOX*/
 
-.flex{
+.flex {
     display: flex;
 }
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 
 .flex.justify-center {
     justify-content: center;
