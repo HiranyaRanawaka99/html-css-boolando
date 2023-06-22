@@ -107,6 +107,12 @@ nav ul {
     background-color:white;
 
     z-index: 1;
+
+    cursor: pointer;
+}
+
+.heart:hover {
+    color:red;
 }
 
 .discount {
