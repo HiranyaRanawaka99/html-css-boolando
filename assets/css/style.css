@@ -151,7 +151,22 @@ nav ul {
     text-decoration:line-through;
 }
 
+/*FOOTER*/
 
+footer {
+    width:100%;
+    padding: 4rem;;
+}
+
+.bg-black {
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+.foot > p  {
+    padding-right: 1rem;
+    font-weight: 100;
+}
 
 /*FLEXBOX*/
 
