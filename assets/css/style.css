@@ -67,7 +67,7 @@ nav ul {
 
 .card.top {
     margin-top: 7.5rem;
-    margin-bottom: 7.5srem;
+    margin-bottom: 2rem;
 }
 
 
@@ -155,7 +155,9 @@ nav ul {
 
 footer {
     width:100%;
-    padding: 4rem;;
+    padding: 4rem;
+    margin-top: 1rem;
+    font-size:small;
 }
 
 .bg-black {
@@ -166,6 +168,7 @@ footer {
 .foot > p  {
     padding-right: 1rem;
     font-weight: 100;
+    padding-top: 0.5rem;
 }
 
 /*FLEXBOX*/
